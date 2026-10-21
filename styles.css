@@ -17,3 +17,36 @@ header {
     padding: 20px;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+aside {
+    background-color: #c8e6c9;
+    padding: 20px;
+    flex: 1;
+}
+
+article {
+    background-color: #fff9c4;
+    padding: 20px;
+    flex: 2.5;
+}
+
+footer {
+    background-color: #e1bee7;
+    padding: 20px;
+}
